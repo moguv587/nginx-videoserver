@@ -2,7 +2,7 @@
 一键搭建NGINX视频服务器，支持rmtp.mp4等,默认支持Nginx-accesskey防盗链 one key to build NGINX video server, support rmtp.mp4 etc...
 
 ## 环境
-Centos
+CentOS
 ## 安装
 cd nginx-videoserver</br>
 chmod +x install.sh</br>
