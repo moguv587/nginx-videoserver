@@ -8,7 +8,7 @@ NGX_DIR=/usr/local/nginx/
 CODE=0
 
 #install development tools
-yum groupinstall development tools -y
+yum groupinstall "development tools" -y
 
 #copy install file
 
