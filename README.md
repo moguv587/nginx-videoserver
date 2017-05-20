@@ -15,12 +15,11 @@ NGINX配置目录 /usr/local/nginx/</br>
 默认防盗链配置已经写入/usr/local/nginx/conf/nginx.conf 第87到93行，已经中文注释，可自行修改
 
 ## 防盗链测试播放方法
-    <?
-    $ipkey= md5("pass".$_SERVER['REMOTE_ADDR']);
-    echo "<a href=file.mp4>file</a><br />";
-    echo "<a href=file.mp4?key=".$ipkey.">file.rar?key=".$ipkey.">file</a><br />";
-    ?>
-修改以上文件，在浏览器中打开后播放
+        <?
+        $ipkey= md5("pass".$_SERVER['REMOTE_ADDR']);
+        echo "<a href=file.mp4>file</a><br />";
+        echo "<a href=file.mp4?key=".$ipkey.">file.rar?key=".$ipkey.">file</a><br />";
+        ?>
 
 ## 加密视频播放
 播放mp3/mp4的加密文件（以bak/dcf结尾）</br>
